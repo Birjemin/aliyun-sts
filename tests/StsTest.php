@@ -10,13 +10,12 @@ namespace Birjemin\AliyunSts\Test;
 
 
 use Birjemin\AliyunSts\Sts;
-use Tests\TestCase;
 
 /**
  * Class StsTest
  * @package Birjemin\AliyunSts\Test
  */
-class StsTest extends TestCase
+class StsTest extends \TestCase
 {
     /**
      * @throws \JimChen\AliyunCore\Exception\ClientException
