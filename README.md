@@ -5,7 +5,11 @@ Aliyun STS临时授权访问OSS
 1. 在laravel中安装
 `composer require birjemin/aliyun-sts`
 
-2. 在`config/app.php`中引入`ServiceProvider.php`，然后执行 `php artisan vendor:publish --provider="Birjemin\AliyunSts\ServiceProvider"`生成配置文件
+2. 在`config/app.php`中引入`ServiceProvider.php`，然后执行下面命令生成配置文件
+
+```php
+php artisan vendor:publish --provider="Birjemin\AliyunSts\ServiceProvider"
+```
 
 3. 使用(确保`aliyun-sts.php`配置正确)
 
